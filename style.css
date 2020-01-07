@@ -1,0 +1,99 @@
+body{
+    font-family : arial,sans-serif
+}
+.container {
+    display: flex ;
+    flex-direction: column ;align-content: flex-end;
+}
+.NavBar {
+    width: 100% ;
+    display: flex ;
+    justify-content: flex-end ;
+}
+.NavBar > button {
+    font-size: 13px;
+    background-color:#4285f4;
+    color: white;
+    border-radius: 3px ;
+    width: 80px;
+}
+.NavBar > a {
+    font-size: 13px;
+    margin: 10px ;
+    text-decoration:none ;
+}
+.DivContCenter{
+    padding-top: 13% ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.DivCenter {
+    justify-content: center;
+    display: flex ;
+    flex-direction: column ;
+}
+.ButtonSearch > button {
+    margin-top: 18px ;
+    width: 30%;
+    height: 36px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: gray;
+    border : 1px solid #f2f2f2;
+}
+
+.FootBar {
+
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+color: rgba(0,0,0,.54);
+background-color: #f2f2f2;
+border-top : 2px solid #e4e4e4;
+}
+.BColorFootBar {
+    margin: 7px ;
+    font-size: 15px;
+    
+   
+}
+.TropOuf {
+    
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    border-top : 2px solid #e4e4e4;
+    line-height: 12px;
+}
+.trop {
+    display: flex ;
+    justify-content: space-around;
+    line-height: 40px;
+}
+.trop > p {
+    margin: 7px ;
+    font-size: 13px
+}
+
+
+input{
+    border: ;
+    border-radius: 10px;
+    height: 25px;
+    width: 582px;
+
+}
+
+a {
+    margin: 0px 13px 0px 13px;
+    font-size: 13px;
+    text-decoration:none ;
+    color :rgba(0,0,0,.54);
+}
+img {
+    text-align: center;
+    
+}
